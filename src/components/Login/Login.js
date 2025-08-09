@@ -18,15 +18,13 @@ import {
   Visibility,
   VisibilityOff,
   Email,
-  Lock,
-  Psychology
+  Lock
 } from '@mui/icons-material';
 import { useAuth } from '../../contexts/AuthContext';
 import logoGestao from '../../assets/logo-gestao-psi.png';
 
 const Login = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const { login } = useAuth();
   
   const [formData, setFormData] = useState({
