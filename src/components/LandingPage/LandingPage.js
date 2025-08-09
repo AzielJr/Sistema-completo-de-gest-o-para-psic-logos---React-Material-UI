@@ -22,7 +22,8 @@ import {
   CloudSync,
   TrendingUp,
   Login,
-  Favorite
+  Favorite,
+  CheckCircle
 } from '@mui/icons-material';
 import logoGestao from '../../assets/logo-gestao-psi.png';
 // Usando imagens do Unsplash que sempre funcionam
