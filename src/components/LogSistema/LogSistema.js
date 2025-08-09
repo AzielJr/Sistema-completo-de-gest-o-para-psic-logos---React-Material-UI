@@ -30,7 +30,6 @@ import {
   Edit as EditIcon,
   Delete as DeleteIcon,
   Visibility as ViewIcon,
-  Print as PrintIcon,
   Download as DownloadIcon,
   FilterList as FilterIcon
 } from '@mui/icons-material';
