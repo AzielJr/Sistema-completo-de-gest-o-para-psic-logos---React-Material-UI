@@ -2,7 +2,7 @@
   "name": "gestao-psi",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://azieljr.github.io/Sistema-completo-de-gest-o-para-psic-logos---React-Material-UI",
+  "homepage": "https://gpsi.netlify.app",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
