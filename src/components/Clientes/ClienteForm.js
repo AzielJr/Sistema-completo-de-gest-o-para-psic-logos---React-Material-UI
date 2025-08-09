@@ -21,8 +21,7 @@ import {
   useTheme,
   IconButton,
   InputAdornment,
-  Avatar,
-  Badge
+  Avatar
 } from '@mui/material';
 import {
   Save,
@@ -36,8 +35,7 @@ import {
   Email,
   Home,
   Work,
-  PhotoCamera,
-  Delete as DeleteIcon
+  PhotoCamera
 } from '@mui/icons-material';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';

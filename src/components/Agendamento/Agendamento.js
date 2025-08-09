@@ -30,8 +30,6 @@ import {
   Delete,
   Person,
   AccessTime,
-  Phone,
-  Email,
   Close,
   CalendarToday,
   Schedule,
@@ -244,13 +242,7 @@ const Agendamento = () => {
     }
   };
 
-  const handleStatusChange = (appointmentId, newStatus) => {
-    setAgendamentos(prev => prev.map(ag => 
-      ag.id === appointmentId 
-        ? { ...ag, status: newStatus }
-        : ag
-    ));
-  };
+
 
   const getAgendamentosData = (date) => {
     return agendamentos.filter(ag => ag.data === date.format('YYYY-MM-DD'));
