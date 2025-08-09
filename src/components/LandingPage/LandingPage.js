@@ -20,15 +20,8 @@ import {
   Analytics,
   Security,
   CloudSync,
-  Star,
-  CheckCircle,
   TrendingUp,
-  AccessTime,
-  Shield,
-  Support,
   Login,
-  Assessment,
-  Group,
   Favorite
 } from '@mui/icons-material';
 import logoGestao from '../../assets/logo-gestao-psi.png';
@@ -106,14 +99,7 @@ const LandingPage = () => {
     { number: '24/7', label: 'Suporte' }
   ];
 
-  const benefits = [
-    'Aumento de 40% na produtividade',
-    'Redução de 60% em tarefas administrativas',
-    'Conformidade total com LGPD e CFP',
-    'Suporte técnico 24/7',
-    'Treinamento completo incluído',
-    'Atualizações automáticas gratuitas'
-  ];
+
 
   return (
     <div className="landing-page">
