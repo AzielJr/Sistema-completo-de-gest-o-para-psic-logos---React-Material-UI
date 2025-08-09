@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Árvore -->
+  <g id="tree">
+    <!-- Tronco -->
+    <path d="M180 180 L180 280 L220 280 L220 180 Z" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    
+    <!-- Folhas em círculo -->
+    <g id="leaves">
+      <!-- Folhas superiores -->
+      <ellipse cx="160" cy="80" rx="8" ry="15" fill="#9ACD32" transform="rotate(-30 160 80)"/>
+      <ellipse cx="180" cy="70" rx="8" ry="15" fill="#9ACD32" transform="rotate(-10 180 70)"/>
+      <ellipse cx="200" cy="65" rx="8" ry="15" fill="#9ACD32" transform="rotate(10 200 65)"/>
+      <ellipse cx="220" cy="70" rx="8" ry="15" fill="#9ACD32" transform="rotate(30 220 70)"/>
+      <ellipse cx="240" cy="80" rx="8" ry="15" fill="#9ACD32" transform="rotate(50 240 80)"/>
+      
+      <!-- Folhas laterais esquerdas -->
+      <ellipse cx="140" cy="100" rx="8" ry="15" fill="#9ACD32" transform="rotate(-60 140 100)"/>
+      <ellipse cx="130" cy="120" rx="8" ry="15" fill="#9ACD32" transform="rotate(-45 130 120)"/>
+      <ellipse cx="125" cy="140" rx="8" ry="15" fill="#9ACD32" transform="rotate(-30 125 140)"/>
+      <ellipse cx="130" cy="160" rx="8" ry="15" fill="#9ACD32" transform="rotate(-15 130 160)"/>
+      
+      <!-- Folhas laterais direitas -->
+      <ellipse cx="260" cy="100" rx="8" ry="15" fill="#9ACD32" transform="rotate(60 260 100)"/>
+      <ellipse cx="270" cy="120" rx="8" ry="15" fill="#9ACD32" transform="rotate(45 270 120)"/>
+      <ellipse cx="275" cy="140" rx="8" ry="15" fill="#9ACD32" transform="rotate(30 275 140)"/>
+      <ellipse cx="270" cy="160" rx="8" ry="15" fill="#9ACD32" transform="rotate(15 270 160)"/>
+      
+      <!-- Folhas inferiores -->
+      <ellipse cx="150" cy="170" rx="8" ry="15" fill="#9ACD32" transform="rotate(-20 150 170)"/>
+      <ellipse cx="170" cy="175" rx="8" ry="15" fill="#9ACD32" transform="rotate(-5 170 175)"/>
+      <ellipse cx="190" cy="177" rx="8" ry="15" fill="#9ACD32" transform="rotate(0 190 177)"/>
+      <ellipse cx="210" cy="175" rx="8" ry="15" fill="#9ACD32" transform="rotate(5 210 175)"/>
+      <ellipse cx="230" cy="170" rx="8" ry="15" fill="#9ACD32" transform="rotate(20 230 170)"/>
+      
+      <!-- Folhas centrais -->
+      <ellipse cx="160" cy="120" rx="8" ry="15" fill="#9ACD32" transform="rotate(-25 160 120)"/>
+      <ellipse cx="180" cy="110" rx="8" ry="15" fill="#9ACD32" transform="rotate(-10 180 110)"/>
+      <ellipse cx="200" cy="105" rx="8" ry="15" fill="#9ACD32" transform="rotate(0 200 105)"/>
+      <ellipse cx="220" cy="110" rx="8" ry="15" fill="#9ACD32" transform="rotate(10 220 110)"/>
+      <ellipse cx="240" cy="120" rx="8" ry="15" fill="#9ACD32" transform="rotate(25 240 120)"/>
+      
+      <!-- Mais folhas para preencher -->
+      <ellipse cx="170" cy="140" rx="8" ry="15" fill="#9ACD32" transform="rotate(-15 170 140)"/>
+      <ellipse cx="190" cy="135" rx="8" ry="15" fill="#9ACD32" transform="rotate(-5 190 135)"/>
+      <ellipse cx="210" cy="135" rx="8" ry="15" fill="#9ACD32" transform="rotate(5 210 135)"/>
+      <ellipse cx="230" cy="140" rx="8" ry="15" fill="#9ACD32" transform="rotate(15 230 140)"/>
+    </g>
+    
+    <!-- Símbolo PSI no centro -->
+    <g id="psi-symbol">
+      <path d="M200 120 L200 160" stroke="#8B4513" stroke-width="4" fill="none"/>
+      <path d="M185 130 Q200 115 215 130" stroke="#8B4513" stroke-width="3" fill="none"/>
+      <path d="M185 150 Q200 135 215 150" stroke="#8B4513" stroke-width="3" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Texto -->
+  <text x="200" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#8B4513">GESTÃO</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#9ACD32">PSI</text>
+</svg>
