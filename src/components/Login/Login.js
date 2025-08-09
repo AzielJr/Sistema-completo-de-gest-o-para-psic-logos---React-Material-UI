@@ -11,7 +11,6 @@ import {
   IconButton,
   Container,
   useTheme,
-  useMediaQuery,
   CircularProgress
 } from '@mui/material';
 import {
