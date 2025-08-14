@@ -52,48 +52,48 @@ const menuItems = [
   {
     title: 'Dashboard',
     icon: <DashboardIcon />,
-    path: '/dashboard'
+    path: '/app/dashboard'
   },
   {
     title: 'Cadastros',
     icon: <People />,
     children: [
-      { title: 'Clientes', icon: <PersonAdd />, path: '/clientes' },
-      { title: 'Tipos de Cliente', icon: <Category />, path: '/tipos-cliente' },
+      { title: 'Clientes', icon: <PersonAdd />, path: '/app/clientes' },
+      { title: 'Tipos de Cliente', icon: <Category />, path: '/app/tipos-cliente' },
     ]
   },
   {
     title: 'Agendamento',
     icon: <CalendarToday />,
-    path: '/agendamento'
+    path: '/app/agendamento'
   },
   {
     title: 'Evolução',
     icon: <TrendingUp />,
-    path: '/evolucao'
+    path: '/app/evolucao'
   },
   {
     title: 'Experiências',
     icon: <Assignment />,
-    path: '/experiencias'
+    path: '/app/experiencias'
   },
   {
     title: 'Financeiro',
     icon: <AttachMoney />,
     children: [
-      { title: 'Despesas', icon: <MonetizationOn />, path: '/despesas' },
-      { title: 'Tipos de Despesas', icon: <Category />, path: '/tipos-despesa' },
-      { title: 'Recebimentos', icon: <Receipt />, path: '/recebimentos' },
+      { title: 'Despesas', icon: <MonetizationOn />, path: '/app/despesas' },
+      { title: 'Tipos de Despesas', icon: <Category />, path: '/app/tipos-despesa' },
+      { title: 'Recebimentos', icon: <Receipt />, path: '/app/recebimentos' },
     ]
   },
   {
     title: 'Utilidades',
     icon: <Build />,
     children: [
-      { title: 'Gerar Agenda Automática', icon: <AutoAwesome />, path: '/gerar-agenda' },
-      { title: 'Usuários', icon: <Group />, path: '/usuarios' },
-      { title: 'Grupos de Usuários', icon: <Group />, path: '/grupos-usuarios' },
-      { title: 'LOG do Sistema', icon: <History />, path: '/logs' },
+      { title: 'Gerar Agenda Automática', icon: <AutoAwesome />, path: '/app/gerar-agenda' },
+      { title: 'Usuários', icon: <Group />, path: '/app/usuarios' },
+      { title: 'Grupos de Usuários', icon: <Group />, path: '/app/grupos-usuarios' },
+      { title: 'LOG do Sistema', icon: <History />, path: '/app/logs' },
     ]
   }
 ];
